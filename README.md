@@ -5,7 +5,6 @@ variable a llm example code
 
     git clone https://github.com/evadelzz1/llm-chatPDF-AllAI.git
 
-
 python 버젼 고정
 
     cd ./llm-chatPDF-AllAI
@@ -15,7 +14,6 @@ python 버젼 고정
     pyenv local 3.10.13
 
     pyenv versions
-
 
 해당 프로젝트를 위한 환경변수파일 생성 및 초기 설정
 
@@ -49,3 +47,8 @@ python 가상환경 deactivate
 
     deactivate
 
+Reference
+
+    Streamlit으로 RAG 시스템 구축하기
+        * [Youtube](https://www.youtube.com/watch?v=xYNYNKJVa4E)
+        * [Github](https://github.com/HarryKane11/langchain/tree/main)
