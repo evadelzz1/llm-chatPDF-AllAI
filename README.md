@@ -27,21 +27,21 @@ python 버젼 고정
 
     ls -la
 
-    python -m venv .venv
+    python3 -m venv .venv
 
 python 가상환경 activate
 
     source .venv/bin/activate
 
-    python -V
+    python3 -V
 
 프로젝트에 필요한 라이브러리 설치
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 예제코드 테스트
 
-    python -m streamlit run main.py
+    python3 -m streamlit run main.py
 
 python 가상환경 deactivate
 
