@@ -1,11 +1,11 @@
 # llm-chatPDF-AllAI
 variable a llm example code
 
-소스코드 다운로드
+## Cloning the Repository
 
     git clone https://github.com/evadelzz1/llm-chatPDF-AllAI.git
 
-python 버젼 고정
+## Setting up a Virtual Environment
 
     cd ./llm-chatPDF-AllAI
 
@@ -15,39 +15,41 @@ python 버젼 고정
 
     pyenv versions
 
-해당 프로젝트를 위한 환경변수파일 생성 및 초기 설정
-
-    ls -la
-
     echo '.env'  >> .gitignore
     echo '.venv' >> .gitignore
     echo 'models/' >> .gitignore
+    
+    echo 'OPENAI_API_KEY=sk-9jz....' >> .env
 
     echo "# Project" >> readme.md
 
     ls -la
 
-    python3 -m venv .venv
+## Install the required dependencies
 
-python 가상환경 activate
+    python3 -m venv .venv
 
     source .venv/bin/activate
 
     python3 -V
 
-프로젝트에 필요한 라이브러리 설치
+## Install the required dependencies
 
-    pip3 install -r requirements.txt
+    pip list
+    
+    pip install -r requirements.txt
+    
+    pip freeze | tee requirements.txt.detail
 
-예제코드 테스트
+## Running the Application
 
-    python3 -m streamlit run main.py
+    python -m streamlit run main.py
 
-python 가상환경 deactivate
+## Deactivate the virtual environment
 
     deactivate
 
-Reference
+## Reference
 
     Streamlit으로 RAG 시스템 구축하기
         * [Youtube](https://www.youtube.com/watch?v=xYNYNKJVa4E)
