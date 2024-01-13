@@ -1,11 +1,11 @@
 # llm-chatPDF-AllAI
 variable a llm example code
 
-## Cloning the Repository
+### Cloning the Repository
 
     git clone https://github.com/evadelzz1/llm-chatPDF-AllAI.git
 
-## Setting up a Virtual Environment
+### Setting up a Virtual Environment
 
     cd ./llm-chatPDF-AllAI
 
@@ -25,7 +25,7 @@ variable a llm example code
 
     ls -la
 
-## Install the required dependencies
+### Install the required dependencies
 
     python3 -m venv .venv
 
@@ -33,7 +33,7 @@ variable a llm example code
 
     python3 -V
 
-## Install the required dependencies
+### Install the required dependencies
 
     pip list
     
@@ -41,15 +41,15 @@ variable a llm example code
     
     pip freeze | tee requirements.txt.detail
 
-## Running the Application
+### Running the Application
 
     python -m streamlit run main.py
 
-## Deactivate the virtual environment
+### Deactivate the virtual environment
 
     deactivate
 
-## Reference
+### Reference
 
     Streamlit으로 RAG 시스템 구축하기
         * [Youtube](https://www.youtube.com/watch?v=xYNYNKJVa4E)
