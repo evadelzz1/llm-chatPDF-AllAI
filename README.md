@@ -25,7 +25,7 @@ variable a llm example code
 
     ls -la
 
-### Install the required dependencies
+### Activate the virtual environment
 
     python3 -m venv .venv
 
